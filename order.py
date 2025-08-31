@@ -39,4 +39,6 @@ class Order(ABC):
         print("Items:")
         for it in self.items:
             print(f"  - {it.name} (id={it.id}, price={it.price})")
+        disc = self.customer.customer_discount
+        print(f"customer discount: {disc}")
         print(f"Total price: {self.total_price}")
