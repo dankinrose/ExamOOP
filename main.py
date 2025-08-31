@@ -10,7 +10,7 @@ from datetime import date
 if __name__ == '__main__':
 
     customer1 = Customer(customer_id=1, first_name="Daniel", last_name="Roze", email="daniel@roze.com", delivery_address="Moria 5, Ariel", customer_type=CustomerType.REGULAR, customer_discount=0)
-    customer2 = Customer(customer_id=1, first_name="Zohar", last_name="Halamish", email="zohar@halamish.com", delivery_address="egoz 10, alon shvut", customer_type=CustomerType.VIP, customer_discount=10)
+    customer2 = Customer(customer_id=2, first_name="Zohar", last_name="Halamish", email="zohar@halamish.com", delivery_address="egoz 10, alon shvut", customer_type=CustomerType.VIP, customer_discount=10)
 
     milk1 = OrderItem(101, "Milk", 6)
     bread = OrderItem(102, "Bread", 8)
